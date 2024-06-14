@@ -6,18 +6,21 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal"
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
     "production": {
       "android": {
         "image": "latest"
       },
       "ios": {
         "image": "latest"
-    },
+      },
     "preview": {
       "distribution": "internal"
     },
-    "production": {}
-  },
   "submit": {
     "production": {}
   }
